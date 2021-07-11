@@ -109,3 +109,12 @@ border:none;
   background: #47cf73;
   color: #fff;
 }
+
+@media screen and (max-width: 1366px){
+
+.keybtn{
+
+   top: 420px;
+  left: 780px;
+  }
+}

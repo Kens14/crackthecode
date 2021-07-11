@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -60,7 +61,7 @@
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-   <h2 style="font-size: 20px;">Hi,<br> To solve this riddle you havr to enter the answer in the input box below.
+   <h2  style="font-size:30px">Hi,<br> To solve this riddle you have to enter the answer in the input box below.
    <br> The picture describes the riddle.<br> Also there are hint buttons for every picture.<br>You get 20 points if the answer is correct.</h2>
   </div>
 
@@ -96,12 +97,12 @@
 </nav>
 
 
-<div id="bg">
-  <center><img  src="images/bg.png" style=" z-index: 10;"> <input style="" class="input" type="text" id="ans" name="Answer" placeholder="Answer" ><button class="button" id="enter" onclick="check()">submit</button></center>
-    
 
- 
- 
+<div id="bg">
+    <img class="bg" src="images/bg.png" style="width: 50%; z-index: 10;">
+
+
+  <input class="input" type="text" id="ans" name="Answer" placeholder="Answer" ><button class="button" id="enter" onclick="check()">submit</button>
 
 
   </div>
@@ -113,7 +114,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Hint is given on the board.</h5>
+        <h5 class="modal-title" id="exampleModalLabel"  style="font-size:30px">Hint is given on the board.</h5>
        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </button>
     </div>
@@ -135,7 +136,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">You have entered the wrong answer. Click on the ? for a hint.</h5>
+        <h5 class="modal-title" id="exampleModalLabel"  style="font-size:30px">You have entered the wrong answer. Click on the ? for a hint.</h5>
        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </button>
     </div>

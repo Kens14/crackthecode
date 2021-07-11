@@ -18,12 +18,13 @@ body{
 
 }
 .bg{
+    box-shadow:5px 8px 8px  #888888;
   display: inline-flex;
   position: absolute;
   margin-top: 120px;
   left: 440px;
-  width: 1020px;
-  height: 100%px;
+  width: 970px;
+  height: 680px;
 }
 
 #navbarNav{
@@ -77,7 +78,7 @@ body{
     display: inline-flex;
          position: absolute;
          left: 850px;
-         top: 340px;  
+         top: 410px;  
         	border: none;
    z-index: 20;
    background: none;
@@ -199,5 +200,55 @@ body{
      border-style: none;
     background: none;
     cursor: pointer;
+
+}
+
+@media screen and (max-width: 1366px){
+*{
+  overflow: hidden;
+}
+
+#navbarNav{
+  font-size: 15px;
+ margin-left: 320px;
+
+}
+
+.progress{
+  
+  height: 50px;
+  font-size: 12px;
+ margin-left: 30px;
+  width: 490px;
+   align-items: right;
+   top: 5px;
+   border: 1px solid #000;
+}
+
+.input{  
+  left: 520px;
+  margin-top: 600px;
+  width: 160px;
+  height: 30px;
+
+}
+.bg{
+  box-shadow:5px 8px 8px  #888888;
+
+ margin-left: -6.5%;
+  width: 670px;
+  height: 400px;
+}
+.button{
+   
+  margin-top: 615px;
+  left: 54%;
+}
+ .hintbtn{
+    height: 120px;
+    width: 100px;
+    left: 660px;
+    top: 310px;          
+  }
 
 }

@@ -10,9 +10,9 @@
 
   .keybtn{
     position: absolute;
-  z-index: 30;
-  top: 540px;
-  left: 1200px;
+  z-index: 9000;
+  top: 550px;
+  left: 1100px;
       background: none;
     border-style: none;
     padding: none;
@@ -108,4 +108,13 @@ border:none;
 .enter:active {
   background: #47cf73;
   color: #fff;
+}
+
+@media screen and (max-width: 1366px){
+
+.keybtn{
+
+   top: 440px;
+  left: 840px;
+  }
 }

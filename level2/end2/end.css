@@ -135,3 +135,34 @@ button {
   padding: 5px 10px;
   font-size: 20px;
 }
+@media screen and (max-width: 1366px){
+*{
+  overflow: hidden;
+}
+#navbarNav{
+  font-size: 15px;
+ margin-left: 980px;
+
+}
+.jumbotron{
+             
+               width: 1366px;
+               height: 781px;
+                    
+          }
+.cong{
+           position: absolute;
+           left: 17%;
+           top: 42%;
+          z-index: 50;
+
+          }
+#content{
+
+  
+  top: 68%;
+  left: 16%;
+ 
+}
+
+}

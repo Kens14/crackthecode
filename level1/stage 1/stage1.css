@@ -115,7 +115,9 @@ z-index: 20;
     outline: none;
 }
 
-
+.modal-title{
+  font-size: 30px;
+}
 
 .key{
   z-index: 1500;
@@ -184,4 +186,52 @@ left: 855px;
     background: none;
     cursor: pointer;
 
+}
+
+
+@media screen and (max-width: 1366px){
+*{
+  overflow: hidden;
+}
+.background{
+ 
+  height: 710px;
+  width: 1366px;
+}
+.door{
+  height: 400px;
+  width: 153px;
+  margin-top: 170px;
+  left: 608px;
+}
+.nxtbtn{
+    bottom: 270px;
+    left: 645px;
+     width: 80px;
+     height: 80px;
+}    
+p{
+  font-size: 20px;
+    bottom: 220px;
+    left: 633px;   
+}
+.hintbtn{
+  margin-top: -40px;
+}
+#navbarNav{
+  font-size: 15px;
+ margin-left: 320px;
+
+}
+
+.progress{
+  
+  height: 50px;
+  font-size: 12px;
+ margin-left: 30px;
+  width: 490px;
+   align-items: right;
+   top: 5px;
+   border: 1px solid #000;
+}
 }

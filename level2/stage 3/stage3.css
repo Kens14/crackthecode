@@ -17,13 +17,14 @@ p{
 body{
 
 }
-.bg{
+.bg {
+    box-shadow:5px 8px 8px  #888888;
   display: inline-flex;
   position: absolute;
   margin-top: 120px;
-  left: 440px;
-  width: 800px;
-  height: 100%px;
+  left: 450px;
+  width: 900px;
+  height: 620px;
 
 }
 
@@ -76,7 +77,7 @@ body{
     padding: none;
     display: inline-flex;
          position: absolute;
-         left: 1380px;
+         left: 1260px;
          top: 390px;  
         	border: none;
    z-index: 20;
@@ -201,5 +202,54 @@ body{
      border-style: none;
     background: none;
     cursor: pointer;
+
+}
+@media screen and (max-width: 1366px){
+*{
+  overflow: hidden;
+}
+
+#navbarNav{
+  font-size: 15px;
+ margin-left: 320px;
+
+}
+
+.progress{
+  
+  height: 50px;
+  font-size: 12px;
+ margin-left: 30px;
+  width: 490px;
+   align-items: right;
+   top: 5px;
+   border: 1px solid #000;
+}
+
+.input{  
+  left: 520px;
+  margin-top: 600px;
+  width: 160px;
+  height: 30px;
+
+}
+.bg{
+  box-shadow:5px 8px 8px  #888888;
+  margin-top: 120px;
+  margin-left: -110px;
+  width: 320px;
+  height: 400px;
+}
+.button{
+   
+  margin-top: 615px;
+  left: 54%;
+}
+ .hintbtn{
+    height: 120px;
+    width: 100px;
+    left: 900px;
+    top: 290px;          
+  }
 
 }

@@ -3,16 +3,16 @@
     transition: all ease 1s;
     z-index: 1000000;
   }
-  .close{
+  .btn-close{
     color:#00FF97 ;
   }
  
 
   .keybtn{
     position: absolute;
-  z-index: 20;
-  top: 600px;
-  left: 1190px;
+  z-index: 9000;
+  top: 550px;
+  left: 1100px;
       background: none;
     border-style: none;
     padding: none;
@@ -108,4 +108,13 @@ border:none;
 .enter:active {
   background: #47cf73;
   color: #fff;
+}
+
+@media screen and (max-width: 1366px){
+
+.keybtn{
+
+   top: 460px;
+  left: 840px;
+  }
 }

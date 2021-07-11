@@ -30,6 +30,9 @@ body{
 
 
 }
+.modal-title{
+  font-size: 30px;
+}
 .offcan{
   margin-left:20px ;
   padding:  5px 7px 0px 7px;
@@ -186,4 +189,57 @@ left: 918px;
     background: none;
     cursor: pointer;
 
+}
+@media screen and (max-width: 1366px){
+*{
+  overflow: hidden;
+}
+.background{
+ 
+  height: 710px;
+  width: 1366px;
+}
+.door{
+ height: 466px;
+  width: 179px;
+  margin-top: 153px;
+  left: 652px;
+}
+.nxtbtn{
+    bottom: 270px;
+    left: 710px;
+     width: 80px;
+     height: 80px;
+}    
+p{
+  font-size: 20px;
+    bottom: 220px;
+    left: 699px;   
+}
+.hintbtn{
+  margin-top: -10px;
+}
+
+.key{
+  margin-top: 267px ;
+  right: 45px;
+  height: 75px;
+  width: 80px;
+}
+#navbarNav{
+  font-size: 15px;
+ margin-left: 320px;
+
+}
+
+.progress{
+  
+  height: 50px;
+  font-size: 12px;
+ margin-left: 30px;
+  width: 490px;
+   align-items: right;
+   top: 5px;
+   border: 1px solid #000;
+}
 }
